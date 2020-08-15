@@ -1,0 +1,10 @@
+	   LDA 2050
+	   ANI 01
+	   JZ EVEN
+	   MVI A,11
+	   JMP EXIT
+
+EVEN:	   MVI A,22
+
+EXIT:	   STA 3050
+	   HLT
