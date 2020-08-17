@@ -10,14 +10,10 @@ REPEAT:	   MOV A,M
 	   MOV A,B
 	   ADD M
 	   MOV B,A
-	   JNC SKIP
-	   INR D
 
 SKIP:	   INX H
 	   DCR C
 	   JNZ REPEAT
 	   MOV A,B
 	   STA 2210
-	   MOV A,D
-	   STA 2211
 	   HLT
