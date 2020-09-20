@@ -27,4 +27,16 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | Find One's complement of a number | [link](WEEK-2/8.asm) |
 | Find Two's complement of a number | [link](WEEK-2/9.asm) |
 | Find Two's complement of a 16-bit number | [link](WEEK-2/10.asm) |
-| Find Two's complement of the number stored in memory location `9000H` and store the result in memory location `9001H` | [link](WEEK-2/10.asm) |
+| Find Two's complement of the number stored in memory location `9000H` and store the result in memory location `9001H` | [link](WEEK-2/11.asm) |
+
+# WEEK-3
+| Question | Code |
+|----------|------|
+| Read and complement the contents of the flag register | [link](WEEK-1/1.asm) |
+| `9050H` be a memory location where `FFH` data is stored. Now,find One's complement of the data and transfer the result in `9051H` memory location | [link](WEEK-1/2.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `0054H` data is stored. Now, find One's complement of the data and transfer the result in `9071H` and `9072H` memory locations | [link](WEEK-1/3.asm) |
+| `9050H` be a memory location where `FFH` data is stored. Now, find Two's complement of the data and transfer the result in `9051H` memory location | [link](WEEK-1/5.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `0054H` data is stored. Now, find Two's complement of the data and transfer the result in `9071H` and `9072H` memory locations | [link](WEEK-1/6.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `54H` and `09H` data is stored. Now, do a OR operation between them and transfer the result in `9071H` memory location | [link](WEEK-1/7.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `0AH` and `07H` data is stored. Now, do a XOR operation between them and transfer the result in `9071H` memory location | [link](WEEK-1/8.asm) |
+| Let us assume, `9060H` and `9061H` be two consecutive memory locations where `FDH` and `05H` data is stored. Now, do a AND operation between them and transfer the result in `9071H` memory location | [link](WEEK-1/9.asm) |
