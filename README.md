@@ -82,3 +82,12 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | Find the number of negative numbers (indicated by an MSB of 1) in a given series and store it in memory location `9100H`. The length of the series is in memory location `9000H`. The series begins at `9001H`. | [link](WEEK-6/8.asm) |
 | Add the corresponding elements of the two arrays having ten 8-bit numbers each and store them in a 3rd array. The arrays start at memory locations `9000H` and `9010H` and `9020H` respectively. Assume that all the sums obtained in the process are not more than eight bits long. | [link](WEEK-6/9.asm) |
 | Find the number of occurrences of the negative numbers, zeros and positive numbers from a list of 3 numbers stored in a block of memory locations starting at `9000H`. Store the counts in memory locations `9010H`, `9011H` and `9012H` respectively. | [link](WEEK-6/10.asm) |
+
+# WEEK-7
+| Question | Code |
+|----------|------|
+| Count the number of 1s in the contents of the memory locations `9000H` and store it in `9001H`. | [link](WEEK-7/4.asm)
+| Two 8-bit unsigned numbers are available in memory locations `9000H` and `9001H`. Multiply them and store the result in memory locations `9002H` and `9003H`, with the most significant bits in `9003H`. | [link](WEEK-7/5.asm)
+| A 16-bit number is available in memory location (`9000H` and `9001H`) and an 8-bit number in `9002H`. Divide the former by later; store the quotient in `9100H` and `9101H` and the remainder in `9102H` and `9103H`. | [link](WEEK-7/6.asm)
+| Two 8-bit unsigned numbers are available in memory locations (`9000H` and `9001H`). Multiply them and store the result in memory locations `9002H` and `9003H`, with the most significant bits in `9003H`. | [link](WEEK-7/7.asm)
+| A 16-bit number is available in memory location `9000H` and `9001H` and an 8-bit number in `9002H`. Divide the former by later; store the quotient in `9100H` and `9101H` and the remainder in `9102H` and `9103H`. | [link](WEEK-7/8sir.asm)
