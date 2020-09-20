@@ -101,3 +101,13 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | Find the HCF of two numbers stored at memory location `8000H` and `8001H`. | [link](WEEK-8/4.asm)
 | Unpack the 2-bit BCD number in memory location `9000H` and store the two digits in memory locations `9001H` and `9002H`, with the units digit in `9001H`. | [link](WEEK-8/5.asm)
 | Check whether a number is an Palindrome number or not. | [link](WEEK-8/6.asm)
+
+# WEEK-9
+| Question | Code |
+|----------|------|
+| To convert two BCD numbers in memory to the equivalent HEX number using 8085 instruction set. | [link](WEEK-9/1.asm)
+| To convert two HEX numbers in memory to the equivalent BCD number using 8085 instruction set. | [link](WEEK-9/2.asm)
+| Find LCM of two 8-bit numbers stored at location 8000H and 8001H | [link](WEEK-9/3.asm)
+| Search a key value in a block of data using linear search (sequential search) technique. | [link](WEEK-9/4.asm)
+| Arrange an array of data in ascending order. | [link](WEEK-9/5.asm)
+| Separate even numbers from given numbers. | [link](WEEK-9/6.asm)
