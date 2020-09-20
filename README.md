@@ -32,11 +32,28 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 # WEEK-3
 | Question | Code |
 |----------|------|
-| Read and complement the contents of the flag register | [link](WEEK-1/1.asm) |
-| `9050H` be a memory location where `FFH` data is stored. Now,find One's complement of the data and transfer the result in `9051H` memory location | [link](WEEK-1/2.asm) |
-| `9060H` and `9061H` be two consecutive memory locations where `0054H` data is stored. Now, find One's complement of the data and transfer the result in `9071H` and `9072H` memory locations | [link](WEEK-1/3.asm) |
-| `9050H` be a memory location where `FFH` data is stored. Now, find Two's complement of the data and transfer the result in `9051H` memory location | [link](WEEK-1/5.asm) |
-| `9060H` and `9061H` be two consecutive memory locations where `0054H` data is stored. Now, find Two's complement of the data and transfer the result in `9071H` and `9072H` memory locations | [link](WEEK-1/6.asm) |
-| `9060H` and `9061H` be two consecutive memory locations where `54H` and `09H` data is stored. Now, do a OR operation between them and transfer the result in `9071H` memory location | [link](WEEK-1/7.asm) |
-| `9060H` and `9061H` be two consecutive memory locations where `0AH` and `07H` data is stored. Now, do a XOR operation between them and transfer the result in `9071H` memory location | [link](WEEK-1/8.asm) |
-| Let us assume, `9060H` and `9061H` be two consecutive memory locations where `FDH` and `05H` data is stored. Now, do a AND operation between them and transfer the result in `9071H` memory location | [link](WEEK-1/9.asm) |
+| Read and complement the contents of the flag register | [link](WEEK-3/1.asm) |
+| `9050H` be a memory location where `FFH` data is stored. Now,find One's complement of the data and transfer the result in `9051H` memory location | [link](WEEK-3/2.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `0054H` data is stored. Now, find One's complement of the data and transfer the result in `9071H` and `9072H` memory locations | [link](WEEK-3/3.asm) |
+| `9050H` be a memory location where `FFH` data is stored. Now, find Two's complement of the data and transfer the result in `9051H` memory location | [link](WEEK-3/5.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `0054H` data is stored. Now, find Two's complement of the data and transfer the result in `9071H` and `9072H` memory locations | [link](WEEK-3/6.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `54H` and `09H` data is stored. Now, do a OR operation between them and transfer the result in `9071H` memory location | [link](WEEK-3/7.asm) |
+| `9060H` and `9061H` be two consecutive memory locations where `0AH` and `07H` data is stored. Now, do a XOR operation between them and transfer the result in `9071H` memory location | [link](WEEK-3/8.asm) |
+| Let us assume, `9060H` and `9061H` be two consecutive memory locations where `FDH` and `05H` data is stored. Now, do a AND operation between them and transfer the result in `9071H` memory location | [link](WEEK-3/9.asm) |
+
+# WEEK-4
+| Question | Code |
+|----------|------|
+| Square of a given no. | [link](WEEK-4/1.asm) |
+| Square of a given no. using lookup table | [link](WEEK-4/2.asm) |
+| Square root of a given no. | [link](WEEK-4/3.asm) |
+| Square root of a given no. using lookup table | [link](WEEK-4/4.asm) |
+| Transfer two bytes of data from one block of memory to another. The source memory begins at `9000H`, while the destination memory block begins at `9100H` | [link](WEEK-4/5.asm) |
+| Left shift 8-bits data by one bit | [link](WEEK-4/6.asm) |
+| Left shift 8-bits data by two bit | [link](WEEK-4/7.asm) |
+| Left shift 16-bits data by one bit | [link](WEEK-4/8.asm) |
+| Left shift 16-bits data by two bit | [link](WEEK-4/9.asm) |
+| Mask off Least significant 4-bits of an 8-bit no. | [link](WEEK-4/10.asm) |
+| Mask off Most significant 4-bits of an 8-bit no. | [link](WEEK-4/11.asm) |
+| Shift 8-bit no. in `9000H` right by 4 bits | [link](WEEK-4/12.asm) |
+| Shift 16-bit no. in (`9000H` and `9001H`) right by one bits. Store the result in (`9002H` and `9003H`) | [link](WEEK-4/13.asm) |
