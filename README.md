@@ -107,7 +107,7 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 |----------|------|
 | To convert two BCD numbers in memory to the equivalent HEX number using 8085 instruction set. | [link](WEEK-9/1.asm)
 | To convert two HEX numbers in memory to the equivalent BCD number using 8085 instruction set. | [link](WEEK-9/2.asm)
-| Find LCM of two 8-bit numbers stored at location 8000H and 8001H | [link](WEEK-9/3.asm)
+| Find LCM of two 8-bit numbers stored at location `8000H` and `8001H` | [link](WEEK-9/3.asm)
 | Search a key value in a block of data using linear search (sequential search) technique. | [link](WEEK-9/4.asm)
 | Arrange an array of data in ascending order. | [link](WEEK-9/5.asm)
 | Separate even numbers from given numbers. | [link](WEEK-9/6.asm)
