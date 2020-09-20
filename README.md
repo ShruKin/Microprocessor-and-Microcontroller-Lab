@@ -68,3 +68,17 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | Find maximum and minimum of 10 numbers. | [link](WEEK-5/5.asm) |
 | Calculate the sum of series of even numbers from the given list of numbers. The length of the list is in memory location `2200H` and the series begins from memory location `2201H`. Result will store at memory location `2210H`. | [link](WEEK-5/6.asm) |
 | Calculate the sum of series of odd numbers from the given list of numbers. The length of the list is in memory location `2200H` and the series begins from memory location `2201H`. Result will store at memory location `2210H`. | [link](WEEK-5/7.asm) |
+
+# WEEK-6
+| Question | Code |
+|----------|------|
+| Convert a hexadecimal number to ASCII number. | [link](WEEK-6/1.asm) |
+| Convert a ASCII number to a hexadecimal number. | [link](WEEK-6/2.asm) |
+| Convert a BCD number into binary number. | [link](WEEK-6/3.asm) |
+| Convert a binary number into BCD number. | [link](WEEK-6/4.asm) |
+| Read and complement the contents of the flag register. | [link](WEEK-6/5.asm) |
+| Add even parity to a 7-bit ASCII characters and place it in the most significant bit of each character. The length of the string is in memory location `9000H` and the string begins in memory location `9001H`. Store the result in the array starting at memory location `9100H`. | [link](WEEK-6/6.asm) |
+| Generate the Fibonacci series. Store it in the series of memory locations starting `9000H`. | [link](WEEK-6/7.asm) |
+| Find the number of negative numbers (indicated by an MSB of 1) in a given series and store it in memory location `9100H`. The length of the series is in memory location `9000H`. The series begins at `9001H`. | [link](WEEK-6/8.asm) |
+| Add the corresponding elements of the two arrays having ten 8-bit numbers each and store them in a 3rd array. The arrays start at memory locations `9000H` and `9010H` and `9020H` respectively. Assume that all the sums obtained in the process are not more than eight bits long. | [link](WEEK-6/9.asm) |
+| Find the number of occurrences of the negative numbers, zeros and positive numbers from a list of 3 numbers stored in a block of memory locations starting at `9000H`. Store the counts in memory locations `9010H`, `9011H` and `9012H` respectively. | [link](WEEK-6/10.asm) |
