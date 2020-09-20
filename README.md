@@ -91,3 +91,13 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | A 16-bit number is available in memory location (`9000H` and `9001H`) and an 8-bit number in `9002H`. Divide the former by later; store the quotient in `9100H` and `9101H` and the remainder in `9102H` and `9103H`. | [link](WEEK-7/6.asm)
 | Two 8-bit unsigned numbers are available in memory locations (`9000H` and `9001H`). Multiply them and store the result in memory locations `9002H` and `9003H`, with the most significant bits in `9003H`. | [link](WEEK-7/7.asm)
 | A 16-bit number is available in memory location `9000H` and `9001H` and an 8-bit number in `9002H`. Divide the former by later; store the quotient in `9100H` and `9101H` and the remainder in `9102H` and `9103H`. | [link](WEEK-7/8sir.asm)
+
+# WEEK-8
+| Question | Code |
+|----------|------|
+| Calculate the sum of the digits of a number. The number is stored in the memory location `9000H`. Store the result in `9050H` and `9051H`. | [link](WEEK-8/1.asm)
+| Two decimal numbers of six digits in packed BCD format each, occupying a sequence of memory bytes are stored. The starting address of the 1st number is `9000H` and that of the 2nd number is `9010H`. Add these two numbers and store the sum in the same format, starting at memory location `9020H`. | [link](WEEK-8/2.asm)
+| Perform BCD subtractions of two numbers stored at location `8001H` and `8002H`. The result will be stored at 8050 and 8051. | [link](WEEK-8/3.asm)
+| Find the HCF of two numbers stored at memory location `8000H` and `8001H`. | [link](WEEK-8/4.asm)
+| Unpack the 2-bit BCD number in memory location `9000H` and store the two digits in memory locations `9001H` and `9002H`, with the units digit in `9001H`. | [link](WEEK-8/5.asm)
+| Check whether a number is an Palindrome number or not. | [link](WEEK-8/6.asm)
