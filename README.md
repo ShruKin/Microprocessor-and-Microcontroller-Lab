@@ -57,3 +57,14 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | Mask off Most significant 4-bits of an 8-bit no. | [link](WEEK-4/11.asm) |
 | Shift 8-bit no. in `9000H` right by 4 bits | [link](WEEK-4/12.asm) |
 | Shift 16-bit no. in (`9000H` and `9001H`) right by one bits. Store the result in (`9002H` and `9003H`) | [link](WEEK-4/13.asm) |
+
+# WEEK-5
+| Question | Code |
+|----------|------|
+| Find the sum of a series where series starts from `3001H` memory address and count of series is at `3000H` memory address where result stores into `4000H` memory address. | [link](WEEK-5/1.asm) |
+| Check whether the 8 bit number which is stored at memory location `2050H` is even or odd. If even, store `22H` at memory location `3050H` otherwise store `11H` at memory location `3050H`. | [link](WEEK-5/2.asm) |
+| Count even numbers in series of 10 numbers. | [link](WEEK-5/3.asm) |
+| Count odd numbers in series of 10 numbers. | [link](WEEK-5/4.asm) |
+| Find maximum and minimum of 10 numbers. | [link](WEEK-5/5.asm) |
+| Calculate the sum of series of even numbers from the given list of numbers. The length of the list is in memory location `2200H` and the series begins from memory location `2201H`. Result will store at memory location `2210H`. | [link](WEEK-5/6.asm) |
+| Calculate the sum of series of odd numbers from the given list of numbers. The length of the list is in memory location `2200H` and the series begins from memory location `2201H`. Result will store at memory location `2210H`. | [link](WEEK-5/7.asm) |
