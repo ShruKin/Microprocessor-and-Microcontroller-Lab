@@ -12,5 +12,19 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | Transfer 10-bytes of data from one data block to another | [link](WEEK-1/7.asm) |
 | Exchange the contents of memory location `9050H` and `9051H` | [link](WEEK-1/8.asm) |
 | Add two 8-bit numbers | [link](WEEK-1/9.asm) |
-| Add two 16-bit numbers | [link](WEEK-1/9.asm) |
+| Add two 16-bit numbers | [link](WEEK-1/10.asm) |
 
+# WEEK-2
+| Question | Code |
+|----------|------|
+| Add the numbers in memory locations `9000H` and `9001H`. Store the result in `9002H` | [link](WEEK-2/1.asm) |
+| Two 16-bit numbers are available in memory locations (`9000H` and `9001H`) and (`9002H` and `9003H`), where the most significant bits are in `9001H` and `9003H`. Add two numbers and save the result in `9004H` and `9005H`, with the most significant byte in `9005H` | [link](WEEK-2/2.asm) |
+| Two numbers are stored in memory locations `9000H` and `9001H`. Add them and store the result (including carry) in memory locations `9002H` and `9003H` | [link](WEEK-2/3.asm) |
+| Subtract the content of memory location `9001H` from that of memory location `9000H` and store the result in memory location `9002H` | [link](WEEK-2/4.asm) |
+| Subtract two 16-bit numbers | [link](WEEK-2/5.asm) |
+| Multiply two 8-bit binary numbers | [link](WEEK-2/6.asm) |
+| Multiply two 16-bit binary numbers | [link](WEEK-2/7.asm) |
+| Find One's complement of a number | [link](WEEK-2/8.asm) |
+| Find Two's complement of a number | [link](WEEK-2/9.asm) |
+| Find Two's complement of a 16-bit number | [link](WEEK-2/10.asm) |
+| Find Two's complement of the number stored in memory location `9000H` and store the result in memory location `9001H` | [link](WEEK-2/10.asm) |
