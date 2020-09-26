@@ -9,5 +9,5 @@ LOOP:	   RRC
 SKIP:	   DCR C
 	   JNZ LOOP
 	   MOV A,D
-	   STA 9051
+	   STA 9001
 	   HLT
