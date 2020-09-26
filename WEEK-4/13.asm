@@ -4,6 +4,6 @@
 	   MOV L,A
 	   MOV A,H
 	   RAR
-	   MOV A,H
+	   MOV H,A
 	   SHLD 9002
 	   HLT
