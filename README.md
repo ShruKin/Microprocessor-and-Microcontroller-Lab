@@ -97,7 +97,7 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 |-------|----------|------|
 | 1 | Calculate the sum of the digits of a number. The number is stored in the memory location `9000H`. Store the result in `9050H` and `9051H`. | [link](WEEK-8/1.asm)
 | 2 | Two decimal numbers of six digits in packed BCD format each, occupying a sequence of memory bytes are stored. The starting address of the 1st number is `9000H` and that of the 2nd number is `9010H`. Add these two numbers and store the sum in the same format, starting at memory location `9020H`. | [link](WEEK-8/2.asm)
-| 3 | Perform BCD subtractions of two numbers stored at location `8001H` and `8002H`. The result will be stored at 8050 and 8051. | [link](WEEK-8/3.asm)
+| 3 | Perform BCD subtractions of two numbers stored at location `8001H` and `8002H`. The result will be stored at `8050H` and `8051H`. | [link](WEEK-8/3.asm)
 | 4 | Find the HCF of two numbers stored at memory location `8000H` and `8001H`. | [link](WEEK-8/4.asm)
 | 5 | Unpack the 2-bit BCD number in memory location `9000H` and store the two digits in memory locations `9001H` and `9002H`, with the units digit in `9001H`. | [link](WEEK-8/5.asm)
 | 6 | Check whether a number is an Palindrome number or not. | [link](WEEK-8/6.asm)
