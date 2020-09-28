@@ -14,13 +14,13 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
             - `Accumulator` is 01 → Number is **odd**
             - `Accumulator` is 00 → Number is **even**
 - Compare: Comparation with respect to `Accumulator` (`CMP X` or `CMI X`)
-> ✔ → Set(1) and ✘ → ReSet(0)
+> ✔ → Set(1) and ✖ → ReSet(0)
 
 | Comparision | Carry Flag | Zero Flag |
 |-------------|------------|-----------|
-| `Accumulator` < `X` | ✔ | ✘ |
-| `Accumulator` = `X` | ✘ | ✔ |
-| `Accumulator` > `X` | ✘ | ✘ |
+| `Accumulator` < `X` | ✔ | ✖ |
+| `Accumulator` = `X` | ✖ | ✔ |
+| `Accumulator` > `X` | ✖ | ✖ |
 
 
 # WEEK-1
