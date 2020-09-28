@@ -1,6 +1,28 @@
 # Microprocessor-and-Microcontroller-Lab
 All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for ready reference
 
+# Notes
+- Zero Flag: After any arithmetical or logical operation
+    - Set(`1`) - Result is 00
+    - ReSet(`0`) - Result is not 00
+- Odd/Even
+    - For a Binary Number
+        - Lowest Bit - 1 → Odd
+        - Lowest Bit - 0 → Even
+    - Check for Odd/Even
+        - `AND` with `01H` (`ADI 01`)
+            - `Accumulator` is 01 → Number is **odd**
+            - `Accumulator` is 00 → Number is **even**
+- Compare: Comparation with respect to `Accumulator` (`CMP X` or `CMI X`)
+> ✔ → Set(1) and ✘ → ReSet(0)
+
+| Comparision | Carry Flag | Zero Flag |
+|-------------|------------|-----------|
+| `Accumulator` < `X` | ✔ | ✘ |
+| `Accumulator` = `X` | ✘ | ✔ |
+| `Accumulator` > `X` | ✘ | ✘ |
+
+
 # WEEK-1
 | Q.No. | Question | Code |
 |-------|----------|------|
