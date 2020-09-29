@@ -25,6 +25,7 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | `Accumulator` > `X` | ✖          | ✖         |
 
 - Other Bit tricks
+
   - Least Significant 4 bits (mask the _lower nibble_) → `AND` with `F0H`
     - To get the upper nibble in the place of lower nibble → Rotate 4 times (`RRC`)
   - Most Significant 4 bits (mask the _upper nibble_) → `AND` with `0FH`
@@ -33,6 +34,14 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
   - Negative Nos. → MSB is Set(`1`)
   - Calculate Parity → `OR` with self
 
+- Code Convertors
+
+| Conversion          | Logic                                                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Hexadecimal → ASCII | If the number is less than `0AH`, add `30H` (It is a Number), else Add `37H` (It is an alphabet)                              |
+| ASCII → Hexadecimal | Subtract `30H` from the number. If the result is greater than `0AH` Subtract `07H`                                            |
+| BCD → Binary/HEX    | Multiply `0AH` to the _upper nibble_ and Add the _lower nibble_                                                               |
+| Binary/HEX → BCD    | Set `Accumulator` to `00H`. Add `01H` till counting reaches the number. _Decimal adjust_ and _handle carry_ in each iteration |
 
 # WEEK-1
 
