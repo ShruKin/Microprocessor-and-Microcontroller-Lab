@@ -103,7 +103,7 @@
 | ------------------------------- | -------- | -------------------- | -------------------- | --------------- | ------------- |
 | 1 → Set11, Q1                   | 1        | 9                    | [link](WEEK-1/9.asm) |                 |               |
 | 2                               | 4        | 3                    | [link](WEEK-4/3.asm) |                 |               |
-| 3                               | 4        | 11                   | [link](WEEK-8/2.asm) |                 |               |
+| 3                               | 8        | 2                   | [link](WEEK-8/2.asm) |                 |               |
 | 4                               | 7        | 4                    | [link](WEEK-7/4.asm) |                 |               |
 
 # Set 13
@@ -146,7 +146,7 @@
 
 | Q. No. in set → Common question | Week No. | Q. No. in Week (PDF) | Link to code              | Page No. in PDF | Modifications  |
 | ------------------------------- | -------- | -------------------- | ------------------------- | --------------- | -------------- |
-| 1 → Set1, Q1                    | 2        | 3                    | [link](WEEK-1/3.asm)      |                 | Memory address |
+| 1 → Set1, Q1                    | 1        | 3                    | [link](WEEK-1/3.asm)      |                 | Memory address |
 | 2                               | 2        | 7                    | [link](WEEK-2/7.asm)      |                 |                |
 | 3 → Set14, Q4                   | 8        | 3                    | [link](WEEK-8/3.asm)      |                 |                |
 | 4                               | Midterm1 | ✘                    | [link](Midterm1/17-4.asm) | ✘               |                |
@@ -166,8 +166,8 @@
 | ------------------------------- | -------- | -------------------- | --------------------- | --------------- | -------------- |
 | 1 → Set9, Q1                    | 1        | 8                    | [link](WEEK-1/8.asm)  |                 | Memory address |
 | 2                               | 2        | 11                   | [link](WEEK-2/11.asm) |                 |                |
-| 3 → Set11, Q2                   | 9        | 3                    | [link](WEEK-9/3.asm)  |                 |                |
-| 4 → Set9, Q4                    | 8        | 5                    | [link](WEEK-8/5.asm)  |                 | Memory address |
+| 3 → Set11, Q2                   | 8        | 4                    | [link](WEEK-8/4.asm)  |                 |                |
+| 4 → Set9, Q4                    | 7        | 4                    | [link](WEEK-7/4.asm)  |                 | Memory address |
 
 # Set 20
 
