@@ -162,3 +162,29 @@ All Microprocessor and Microcontroller Laboratory (PCC-CS592) assignments for re
 | 4     | Search a key value in a block of data using linear search (sequential search) technique.      | [link](WEEK-9/4.asm) |
 | 5     | Arrange an array of data in ascending order.                                                  | [link](WEEK-9/5.asm) |
 | 6     | Separate even numbers from given numbers.                                                     | [link](WEEK-9/6.asm) |
+
+# WEEK-10
+
+| Q.No. | Question                                                                                                      | Code                  |
+| ----- | ------------------------------------------------------------------------------------------------------------- | --------------------- |
+| 1     | Write an assembly language program in 8085 microprocessor to sort a given list of n numbers sing Bubble Sort. | [link](WEEK-10/1.asm) |
+| 2     | Write an assembly language program in 8085 which convert an 8 bit number into grey number.                    | [link](WEEK-10/2.asm) |
+| 3     | Write an assembly language program in 8085 microprocessor to reverse 16 bit number.                           | [link](WEEK-10/3.asm) |
+| 4     | Write an assembly language code for calculating the nth power of a number using 8085 microprocessor.          | [link](WEEK-10/4.asm) |
+
+# WEEK-11
+
+| Q.No. | Question                                                                                                                                                                         | Code                  |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| 1     | Write an 8051 Program to Add two 8 Bit numbers.                                                                                                                                  | [link](WEEK-11/1.asm) |
+| ~~2~~ | ~~Write an 8051 assembly language program to add 35H and 63H using pointer. Use R0 as pointer. By default the register bank 0 is selected on reset.~~                            | ✖                     |
+| 3     | Write an ALP for subtraction of two 8bit numbers-one number EFH is in the Accumulator and other number 45H in R0 register. After subtraction, Result to be stored in A register. | [link](WEEK-11/3.asm) |
+| 4     | Write an 8051 assembly language program for One’s complement of an 8 bit number.                                                                                                 | [link](WEEK-11/4.asm) |
+| 5     | Write an ALP for two’s complement of an 8 bit number and the result should be stored in 7050 location.                                                                           | [link](WEEK-11/5.asm) |
+
+# WEEK-12
+
+| Q.No. | Question                                       | Code                  |
+| ----- | ---------------------------------------------- | --------------------- |
+| 1     | 8051 Program to divide two 8 Bit numbers.      | [link](WEEK-12/1.asm) |
+| 2     | Program to Multiply two 8 Bit numbers in 8051. | [link](WEEK-12/2.asm) |
