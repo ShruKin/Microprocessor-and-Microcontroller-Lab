@@ -1,0 +1,21 @@
+MOV R0, #20H; 1st no.
+MOV R1, #30H; 2nd no.
+
+MOV A, @R0
+INC R0
+SUBB A, @R1
+INC R1
+MOV R4, A
+
+MOV A, @R0
+SUBB A, @R1
+MOV R5, A
+
+MOV R0, #40H; answer
+MOV A, R4
+MOV @R0, A
+INC R0
+MOV A, R5
+MOV @R0, A
+
+HALT:   SJMP HALT

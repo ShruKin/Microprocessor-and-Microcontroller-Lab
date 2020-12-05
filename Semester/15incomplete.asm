@@ -1,0 +1,14 @@
+MOV R0, #20H; source
+MOV R1, #30H; destination
+
+MOV A, #99H
+SUBB A, @R0
+INC A
+
+INC R0
+ADD A, @R0
+DA A
+
+MOV @R1, A
+
+HALT: SJMP HALT

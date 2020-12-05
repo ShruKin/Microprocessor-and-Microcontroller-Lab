@@ -1,0 +1,28 @@
+MOV R0, #20H; 1st no.
+MOV R1, #30H; 2nd no.
+MOV R6,#00H; carry set to 0
+
+MOV A, @R0
+INC R0
+ADD A, @R1
+INC R1
+MOV R4, A
+
+MOV A, @R0
+ADDC A, @R1
+MOV R5, A
+
+JNC SAVE
+INC R6
+
+SAVE: MOV R0, #40H; answer
+MOV A, R4
+MOV @R0, A
+INC R0
+MOV A, R5
+MOV @R0, A
+INC R0
+MOV A, R6
+MOV @R0, A
+
+HALT:   SJMP HALT
